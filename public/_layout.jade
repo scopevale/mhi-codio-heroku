@@ -1,0 +1,28 @@
+doctype
+html(lang="en")
+	head
+		title= title
+		meta(name="description" content="#{ description }")
+		meta(name="keywords" content="#{ keywords }")
+		link(rel='stylesheet', href='css/app.css')
+		link(rel='stylesheet', href='css/mhinfo.css')
+		script(src='bower_components/modernizr/modernizr.js')
+	body
+		#wrap
+			!= partial("_shared/_stdheader.jade")
+			#main.row(role='main')
+				#navbar.small-2.columns
+					unless current.source == '404'
+						unless locked
+							!= partial("_shared/_nav.jade")
+				#content.small-10.columns
+					if locked
+						!= partial("_shared/_under-construction.jade")
+					else
+						!= yield
+		!= partial("_shared/_stdfooter.jade")
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+		script
+			window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\\/script>')
+		script(src='bower_components/foundation/js/foundation.min.js')
+		script(src='js/app.js')

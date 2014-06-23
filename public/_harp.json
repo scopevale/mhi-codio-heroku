@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "title": "Michelle Harris - Barrister",
+    "description": "My Personal Website & Blog",
+		"keywords": "barrister, law, crime, defence, immigration, criminal defence, entry clearance, middle temple, 1 pump court, legal",
+    "name" : "Michelle Harris",
+    "email": "michelle.karlden@gmail.com",
+    "uri": "http://www.michelleharris.info/",
+    "author": "Gary Smith",
+    "author_email": "scopevale@gmail.com",
+		"production": false,
+		"locked": false
+  }
+}
