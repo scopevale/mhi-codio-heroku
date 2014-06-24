@@ -42,21 +42,6 @@ header {
 	}
 }
 
-/* header h1, header h3 {
-    display: inline;
-    color: #009CE2;
-    color: $defaultCol;
-}
-
-header h1 {
-    font-size: 3em;
-}
-
-header h3 {
-    font-size: 3em;
-}
- */
-/* navbar menu */
 #navbar ul {
   margin-top: 15px !important;
 	li {
@@ -135,106 +120,6 @@ header h3 {
 	}
 }
 
-
-/* #navbar ul a, #navbar ul a:visited, #navbar ul a:hover {
-    color: $defaultCol;
-    font-size: 110%;
-    font-variant: small-caps;
-    font-weight: bold; 
-    text-decoration: none;
-}
- */
-
-
-/* #navbar ul li div.menu-item-bottom {
-    background-color: $defaultCol;
-    height: 5px;
-    width: 90px;
-    position: absolute;
-    top: 35px;
-
-}
- */
-
-/* #navbar ul li div.menu-item-bottom div.lozenge {
-    height: 5px;
-    width: 10px;
-    position: absolute;
-    top: 0;
-    left: 80px;
-}
- */
-
-$indexCol: rgba(255,0,0,1);
-$aboutCol: rgba(255,80,0,1);
-$crimeCol: rgba(255,255,0,1);
-$immigrationCol: rgba(0,0,255,1);
-$other-lawCol: rgba(255,80,0,1);
-$politicsCol: rgba(255,0,0,1);
-$page-7Col: rgba(148,0,211,1);
-
-/* set the bg colour foreach menu item - based on the current page */
-/* #navbar ul li.index.active div.menu-item-bottom {
-    background-color: $indexCol;
-}
-
-#navbar ul li.about.active div.menu-item-bottom {
-    background-color: $aboutCol;
-}
-
-#navbar ul li.crime.active div.menu-item-bottom {
-    background-color: $crimeCol;
-}
-
-
-#navbar ul li.immigration.active div.menu-item-bottom {
-    background-color: $immigrationCol;
-}
-
-#navbar ul li.active.other-law div.menu-item-bottom {
-    background-color: $other-lawCol;
-}
-
-#navbar ul li.active.politics div.menu-item-bottom {
-    background-color: $politicsCol;    
-}
-
-#navbar ul li.active.page-7 div.menu-item-bottom {
-    background-color: $page-7Col;
-}
- */
-
-
-/* set the lozenge colour for each menu item, based on the link page */
-/* div.lozenge.home {
-    background-color: rgba(255,0,0,1);
-}
-
-div.lozenge.about {
-    background-color: rgba(255,80,0,1);
-}
-
-div.lozenge.crime {
-    background-color: rgba(255,255,0,1);
-}
-
-div.lozenge.immigration {
-    background-color: rgba(0,0,255,1);
-}
-
-div.lozenge.other-law {
-    background-color: rgba(255,80,0,1);
-}
-
-div.lozenge.politics {
-    background-color: rgba(255,0,0,1);
-}
-div.lozenge.page-7 {
-    background-color: rgba(148,0,211,1);
-} */
-/* end of navbar menu */
-
-
 #content {
     background-color: #ffffff;
     background-color: transparent;
@@ -246,14 +131,10 @@ div.lozenge.page-7 {
 }
 
 footer {
-}
-
-footer img {
-    display: inline;
-}
-
-footer h5 {
-    display: inline;
+	img, h5 {
+		display: inline;
+		
+	}
 }
 
 #footerbar {
@@ -283,7 +164,7 @@ footer h5 {
 
 #disclaimer-modal {
     display: none;
-		background-color: #333333;
+		background-color: #777777;
 }
 
 #scopevale a, #scopevale a:visited, #scopevale a:hover {
@@ -300,11 +181,6 @@ html, body {
 #wrap {
     height: auto;
     min-height: 100%;
-/*    
-    background-image: url(/assets/img/gz0ahan.png);
-    background-repeat: repeat;
-*/
-
 }
 
 #main {
@@ -319,8 +195,6 @@ footer {
     clear:both;
 }
 
-
-
 /*Opera Fix*/
 body:before {
     content:"";
@@ -331,10 +205,6 @@ body:before {
 }
 /* end sticky footer */
 
-
-
-/* page specific rules */
-/*.crime-pg #content img, .home-pg #content img */
 #content img {
     margin: 20px 0 0 20px;
 }
@@ -343,25 +213,13 @@ body:before {
     margin-left: 0;
 }
 
-
-div.content-text-wrap {
-    /*border: thin solid #000000;*/
-}
-
-
 div.content-text {
-/*
-    border: thin solid #424242;
-    background-color: #232323;
-    padding: 10px;
-*/
+	margin-top: 12px;
 }
 
 .not-found {
 	color: #ffffff;
 }
-
-
 
 /* media queries for rainbow header/footer bar */
 .rainbow {
@@ -369,7 +227,6 @@ div.content-text {
     width: 100%;
     height: 10px;
 }
-
 
 @media screen and (max-width: 2000px) and (min-width: 1801px) {
     .rainbow {
