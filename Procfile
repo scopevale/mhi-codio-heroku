@@ -1,1 +1,1 @@
-web: ./node_modules/harp/bin/harp server public -p $PORT
+web: ./node_modules/harp/bin/harp server ./public -p $PORT
