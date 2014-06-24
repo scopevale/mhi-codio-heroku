@@ -29,14 +29,20 @@ body {
 }
 
 header {
-    z-index: 101;
-    position: relative;
-    margin-top: 40px !important;
-    margin-bottom: 30px !important;
-    text-align: center;
+	z-index: 101;
+	position: relative;
+	margin-top: 40px !important;
+	margin-bottom: 30px !important;
+	text-align: center;
+	h1, h3 {
+    display: inline;
+    color: #009CE2;
+    color: $defaultCol;
+		font-size: 3em;
+	}
 }
 
-header h1, header h3 {
+/* header h1, header h3 {
     display: inline;
     color: #009CE2;
     color: $defaultCol;
@@ -49,7 +55,7 @@ header h1 {
 header h3 {
     font-size: 3em;
 }
-
+ */
 /* navbar menu */
 #navbar ul {
   margin-top: 15px !important;
