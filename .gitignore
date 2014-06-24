@@ -18,7 +18,9 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
-# /bower_components/*
+
+# libs & modules
+bower_components/*
 node_modules/*
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
