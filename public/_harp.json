@@ -9,6 +9,6 @@
     "author": "Gary Smith",
     "author_email": "scopevale@gmail.com",
 		"production": false,
-		"locked": false
+		"locked": true
   }
 }
