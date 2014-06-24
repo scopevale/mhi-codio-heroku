@@ -1,13 +1,13 @@
 footer
 	#footerbar.row
 		#disclaimer.small-5.small-offset-1.columns
-			h5 legal disclaimer
+			h5(data-reveal-id='disclaimer-modal') legal disclaimer
 		#scopevale.small-5.columns
 			img(src='http://i.imgur.com/nP13E.png', alt='scopevale')
 			h5
 				a(target='_blank', href='http://www.scopevale.co.uk', title='visit scopevale.co.uk') website by scopevale
 		.small-1.columns
 	.rainbow
-#disclaimer-modal(title='Legal Disclaimer')
+#disclaimer-modal.reveal-modal(title='Legal Disclaimer', data-reveal)
 	p
 		| The information and any commentary on the law contained on this web-site is provided free of charge for information only. Every reasonable effort is made to make the information and commentary accurate and up-to-date but it is not intended to amount to legal advice to any person on a specific case or matter. You are strongly advised to obtain specific, personal advice from a lawyer about your case or matter and not to rely solely on the information or comments on this site.

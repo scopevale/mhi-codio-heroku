@@ -21,12 +21,12 @@ $(document).foundation();
 		$(this).next('div.menu-item-bottom').css({'background-color' : bgColour});
 	});
 
-	$('#disclaimer > h5').click(function() {
-		$('#disclaimer-modal').dialog({
-			height: 320,
-			width: 500,
-			modal: true
-		});
-	});
+// 	$('#disclaimer > h5').click(function() {
+// 		$('#disclaimer-modal').dialog({
+// 			height: 320,
+// 			width: 500,
+// 			modal: true
+// 		});
+//	});
 
 })();
