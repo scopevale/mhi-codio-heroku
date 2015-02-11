@@ -11,6 +11,6 @@
 		"analytics_acc": "UA-898420-1",
 		"analytics_uri": "http://michelleharris.info",
 		"production": false,
-		"locked": false
+		"locked": true
   }
 }
