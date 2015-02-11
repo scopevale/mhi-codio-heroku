@@ -8,7 +8,9 @@
     "uri": "http://www.michelleharris.info/",
     "author": "Gary Smith",
     "author_email": "scopevale@gmail.com",
+		"analytics_acc": "UA-898420-1",
+		"analytics_uri": "http://michelleharris.info",
 		"production": false,
-		"locked": true
+		"locked": false
   }
 }

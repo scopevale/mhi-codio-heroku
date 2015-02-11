@@ -36,7 +36,6 @@ header {
 	text-align: center;
 	h1, h3 {
     display: inline;
-    color: #009CE2;
     color: $defaultCol;
 		font-size: 3em;
 	}
@@ -116,7 +115,6 @@ header {
     font-variant: small-caps;
     font-weight: bold; 
     text-decoration: none;
-		
 	}
 }
 
@@ -197,11 +195,11 @@ footer {
 
 /*Opera Fix*/
 body:before {
-    content:"";
-    height:100%;
-    float:left;
-    width:0;
-    margin-top:-32767px;
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
 }
 /* end sticky footer */
 
@@ -262,6 +260,14 @@ div.content-text {
     .rainbow {
         background-image: url(/img/rainbow-gradient-1000.png); 
     }
+		/* adjust #navbar & .content-text for medium to small device screens */ 
+		#navbar {
+			padding-left: 60px;
+		}
+		.content-text {
+			margin-left: -40px;
+			margin-right: 30px;
+		}
 }
 
 @media screen and (max-width: 800px) and (min-width: 601px) {

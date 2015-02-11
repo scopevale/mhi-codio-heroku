@@ -11,16 +11,19 @@ html(lang="en")
 		#wrap
 			!= partial("_shared/_stdheader.jade")
 			#main.row(role='main')
-				#navbar.small-2.columns
+				#navbar.small-4.medium-3.large-2.columns
 					unless current.source == '404'
 						unless locked
 							!= partial("_shared/_nav.jade")
-				#content.small-10.columns
+				#content.small-8.medium-9.large-10.columns
 					if locked
 						!= partial("_shared/_under-construction.jade")
 					else
 						!= yield
 		!= partial("_shared/_stdfooter.jade")
 		script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+		script.
+			window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\\/script>')
 		script(src='bower_components/foundation/js/foundation.min.js')
 		script(src='js/app.js')
+		!= partial("_shared/_google.jade")
